@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exemplo 3</title>
+</head>
+<body>
+
+<h1>Exemplo 3</h1>
+<p>jQuery é uma biblioteca</p>
+<p>jQuery é um codigo livre e aberto apra usar</p>
+<p>Jquery aumena a produtividade em um projeto</p>
+
+
+<!-- <script src="jquery-3.1.1.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script>
+	
+	$(document).ready(function(){
+		//seletor  de evento
+		$("p").on("click", function(){
+			alert("click evetuado");
+		});
+	});
+</script>
+
+</body>
+</html>
